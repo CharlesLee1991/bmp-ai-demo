@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { useState } from "react";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
@@ -549,7 +548,7 @@ export default function Dashboard() {
         <div className="max-w-6xl mx-auto px-6 py-5">
           <div className="flex items-center justify-between flex-wrap gap-3">
             <div>
-              <div className="flex items-center gap-3"><Link to="/" className="text-xs text-slate-400 hover:text-blue-600 mr-1">← Hub</Link><h1 className="text-xl font-extrabold text-slate-900 tracking-tight">삼성서울병원</h1><Badge color="gold">World #26</Badge><Badge color="blue">Korea #1</Badge></div>
+              <div className="flex items-center gap-3"><h1 className="text-xl font-extrabold text-slate-900 tracking-tight">삼성서울병원</h1><Badge color="gold">World #26</Badge><Badge color="blue">Korea #1</Badge></div>
               <p className="text-xs text-slate-500 mt-1">Marketing Intelligence Dashboard · 뉴스위크 2026 세계 26위 / 국내 1위 (4년 연속 상승)</p>
             </div>
             <div className="text-right"><p className="text-[10px] text-slate-400 uppercase tracking-widest">Powered by</p><p className="text-sm font-bold text-blue-600">GEOcare.AI</p></div>
